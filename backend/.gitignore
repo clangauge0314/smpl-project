@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# 가상환경 전체 무시
+venv/
+.venv/
+env/
+ENV/
+Lib/
+Include/
+Scripts/
+bin/
+
+
+# VSCode settings (optional)
+.vscode/
+
+# Pytest
+.cache/
+
+# MacOS
+.DS_Store
+
+# Logs
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# MyPy
+.mypy_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Environments
+.env
+.env.*
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
